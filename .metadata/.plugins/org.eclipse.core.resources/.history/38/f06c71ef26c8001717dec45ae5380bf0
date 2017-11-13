@@ -1,0 +1,103 @@
+package entity;
+
+import java.util.Set;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+
+public class Item {
+	private String itemId;
+	private String name;
+	private double rating;
+	private String address;
+	private String city;
+	private String country;
+	private String state;
+	private String zipcode;
+	private double latitude;
+	private double longitude;
+	private String description;
+	private Set<String> categories;
+	private String imageUrl;
+	private String url;
+	private String snippet;
+	private String snippetUrl;
+	
+	public String getItemId() {
+		return itemId;
+	}
+	public String getName() {
+		return name;
+	}
+	public double getRating() {
+		return rating;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public String getCity() {
+		return city;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public String getState() {
+		return state;
+	}
+	public String getZipcode() {
+		return zipcode;
+	}
+	public double getLatitude() {
+		return latitude;
+	}
+	public double getLongitude() {
+		return longitude;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public Set<String> getCategories() {
+		return categories;
+	}
+	public String getImageUrl() {
+		return imageUrl;
+	}
+	public String getUrl() {
+		return url;
+	}
+	public String getSnippet() {
+		return snippet;
+	}
+	public String getSnippetUrl() {
+		return snippetUrl;
+	}
+	
+	public JSONObject toJSONObject() {
+		JSONObject obj = new JSONObject();
+		try {
+			obj.put("item_id", itemId);
+			obj.put("name", name);
+			obj.put("rating", rating);
+			obj.put("address", address);
+			obj.put("city", city);
+			obj.put("country", country);
+			obj.put("state", state);
+			obj.put("zipcode", zipcode);
+			obj.put("latitude", latitude);
+			obj.put("longitude", longitude);
+			obj.put("description", description);
+			obj.put("categories", new JSONArray(categories));
+			obj.put("image_url", imageUrl);
+			obj.put("url", url);
+			obj.put("snippet_url", snippetUrl);
+			obj.put("snippet", snippet);
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		return obj;
+	}
+
+	
+}

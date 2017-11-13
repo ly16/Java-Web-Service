@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/liliyu/summer3/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2070728547.index
+490949128.index
+1227251517.index
+562601656.index
+1234244087.index
+3129207364.index
