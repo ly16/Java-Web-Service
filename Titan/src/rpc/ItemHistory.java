@@ -106,6 +106,5 @@ public class ItemHistory extends HttpServlet {
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
- 	}
-	
+ 	}	
 }
