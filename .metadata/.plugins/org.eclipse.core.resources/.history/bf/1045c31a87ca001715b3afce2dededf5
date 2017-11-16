@@ -1,8 +1,6 @@
 package rpc;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class SearchItem
+ * Servlet implementation class RecommendItem
  */
-@WebServlet("/search")
-public class SearchItem extends HttpServlet {
+@WebServlet("/RecommendItem")
+public class RecommendItem extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public SearchItem() {
+    public RecommendItem() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -29,16 +27,7 @@ public class SearchItem extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-        response.setContentType("application/json");
-        String username = "";
-        PrintWriter out = response.getWriter();
-        if (request.getParameter("username") != null) {
-        	username = request.getParameter("username");
-        	out.print("Hello " + username);
- }
-        out.flush();
-        out.close();   
-		
+		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 	/**
