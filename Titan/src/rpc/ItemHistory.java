@@ -88,7 +88,7 @@ public class ItemHistory extends HttpServlet {
  	*/
  	protected void doDelete(HttpServletRequest request, HttpServletResponse response)
                     	throws ServletException, IOException {
-		try {
+ 		try {
 			JSONObject input = RpcHelper.readJsonObject(request);
 			String userId = input.getString("user_id");
 			JSONArray array = (JSONArray) input.get("favorite");
