@@ -15,14 +15,15 @@ __________________
 
 ### What is Yelp API?
 It is an open API for public users to access information from Yelp such that we can fetch real restaurant information including name, description, location, category, etc. It plays a role as the following:
-![api](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/yelp%20api.jpg)
+![api](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/api.png)
 
 ### How does database work?
 When the number of user is large, we need DSMS to manage data. We can fullfill functions like store all of informations related to each user, retrieve data based on conditions quackly, update, add or delete data timely, access data with authorization. We involve four tables in our case: 
-*users - store user information.
-*items - store item information.
-*history - store user favorite/purchase history (many-to-many).
-*category - store item-category relationship (many-to-many).
++ users - store user information.
++ items - store item information.
++ history - store user favorite/purchase history (many-to-many).
++ category - store item-category relationship (many-to-many).
+![db](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png)
 
 
 
