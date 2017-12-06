@@ -3,7 +3,8 @@
 This is a restaurant search and recommendation web service (backend) to improve personal experience for restaurant seekers. The project would provide a Java service and a database to process and store data.
 __________________
 
-## What is implemented in this project?
+
+### What is implemented in this project?
 - Yelp API
 - Show items near your location (namely SearchItems)
 - Set favored items (namely VisitHistory)
