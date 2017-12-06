@@ -7,15 +7,17 @@ __________________
 
 
 ### What is implemented in this project?
-- Yelp API
+- API(by Yelp API)
 - Show items near your location (namely SearchItems)
 - Set favored items (namely VisitHistory)
 - Recommend new items (namely RecommendItems)
+- HTTP methods (GET, POST, PUT, DELETE)
 
 ### What is Yelp API?
-It is an open API for public users to access information from Yelp such that we can fetch real restaurant information including name, description, location, category, etc.
+It is an open API for public users to access information from Yelp such that we can fetch real restaurant information including name, description, location, category, etc. It palys a role as the following:
+![api](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/yelp%20api.jpg)
 
-
+### 
 
 
 
