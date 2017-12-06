@@ -12,6 +12,10 @@ __________________
 - Set favored items (namely VisitHistory)
 - Recommend new items (namely RecommendItems)
 
+### What is Yelp API?
+It is an open API for public users to access information from Yelp such that we can fetch real restaurant information including name, description, location, category, etc.
+
+
 
 
 
