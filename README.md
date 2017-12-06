@@ -2,7 +2,7 @@
 
 This is a restaurant search and recommendation web service (backend) to improve personal experience for restaurant seekers. The project would provide a Java service and a database to process and store data.
 
-Prerequisite: Eclipse Java EE, Apache Tomcat server, Postman
+'Preparation: Eclipse Java EE, Apache Tomcat server, Postman'
 __________________
 
 
