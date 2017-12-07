@@ -27,7 +27,9 @@ When the number of user is large, we need DSMS to manage data. We can fullfill f
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png" height = 60%
 width=60%>
 
-e.g. We want to get the table of history `http://localhost:8080/Titan/history?user_id=1111`
+e.g. We want to get the table of history 
+
+`http://localhost:8080/Titan/history?user_id=1111`
 
 ![histroy](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/histry_postman.png)
 
@@ -40,7 +42,7 @@ e.g. We want to get the table of history `http://localhost:8080/Titan/history?us
 When the recommendation system does not contain enough users/data, we use contend-based method firstly, combined with user/ item-based recommendation method. In this case, We recommend restaurants with similar categories as those in history table and rank items based on distance.
 
 
-##  Results & Screen Shots
+###  Results & Screen Shots
 - Items in history table
 ![dbhistroy](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/gistory_mysql.png)
 
