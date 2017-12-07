@@ -34,7 +34,7 @@ E.g. we want to get the table of history
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/histry_postman.png" height=80% width=80%>
 
 
-## How does recommendation system work？
+### How does recommendation system work？
 - User-based method(similarity of users) 
 - Item-base method(similarity of items)
 - Content-based recommendation(similarity of characterastics)
