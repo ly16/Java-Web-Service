@@ -43,6 +43,7 @@ When the recommendation system does not contain enough users/data, we use conten
 
 
 ###  Results & Screen Shots
+
 - Items in history table
 ![dbhistroy](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/gistory_mysql.png)
 
@@ -53,12 +54,14 @@ When the recommendation system does not contain enough users/data, we use conten
 ![sev](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/server.png)
 
 ![rca](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_CA.png)
-*****
+
+
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=40.73&lon=-73.94`
 
 ![rny](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_nY.png)
-*****
+
+
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=27.99&lon=-81.76`
 
