@@ -54,6 +54,7 @@ ____________
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/server.png" height=80% width=80%>
 
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_CA.png" height=80% width=80%>
+
 ____________________
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=40.73&lon=-73.94`
