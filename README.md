@@ -19,6 +19,7 @@ It is an open API for public users to access information from Yelp such that we 
 
 ### How does database work?
 When the number of user is large, we need DSMS to manage data. We can fullfill functions like store all of informations related to each user, retrieve data based on conditions quackly, update, add or delete data timely, access data with authorization. We involve four tables in our case: 
+![table](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/tablessql.png)
 + users - store user information.
 + items - store item information.
 + history - store user favorite/purchase history (many-to-many).
