@@ -31,7 +31,7 @@ E.g. We want to get the table of history
 
 `http://localhost:8080/Titan/history?user_id=1111`
 
-![histroy](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/histry_postman.png)
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/histry_postman.png" height=60% width=60%>
 
 
 ## How does recommendation system work？
