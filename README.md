@@ -17,8 +17,6 @@ __________________
 It is an open API for public users to access information from Yelp such that we can fetch real restaurant information including name, description, location, category, etc. It plays a role as the following:
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/api.png" height="80%" width="80%" >
 
-![api](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/api.png)
-
 ### How does database work?
 When the number of user is large, we need DSMS to manage data. We can fullfill functions like store all of informations related to each user, retrieve data based on conditions quackly, update, add or delete data timely, access data with authorization. We involve four tables in our case: 
 ![table](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/tablessql.png)
@@ -26,7 +24,8 @@ When the number of user is large, we need DSMS to manage data. We can fullfill f
 + items - store item information.
 + history - store user favorite/purchase history (many-to-many).
 + category - store item-category relationship (many-to-many).
-![db](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png)
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png" height = 50%
+width=50%>
 
 e.g. We want to get the table of history
 
