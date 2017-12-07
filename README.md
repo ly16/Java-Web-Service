@@ -15,7 +15,7 @@ __________________
 
 ## What is Yelp API?
 It is an open API for public users to access information from Yelp such that we can fetch real restaurant information including name, description, location, category, etc. It plays a role as the following:
-<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/api.png" height="80%" width="80%" >
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/api.png" height="60%" width="60%" >
 
 ## How does database work?
 When the number of user is large, we need DSMS to manage data. We can fullfill functions like store all of informations related to each user, retrieve data based on conditions quackly, update, add or delete data timely, access data with authorization. We involve four tables in our case: 
@@ -24,10 +24,11 @@ When the number of user is large, we need DSMS to manage data. We can fullfill f
 + items - store item information.
 + history - store user favorite/purchase history (many-to-many).
 + category - store item-category relationship (many-to-many).
-<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png" height = 50%
-width=50%>
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png" height = 60%
+width=60%>
 
 e.g. We want to get the table of history `http://localhost:8080/Titan/history?user_id=1111`
+![histroy](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/histry_postman.png)
 
 
 ## How does recommendation system work？
@@ -39,6 +40,7 @@ When the recommendation system does not contain enough users/data, we use conten
 
 
 ##  Results & Screen Shots
+- Items in history table
 
 
 
