@@ -31,7 +31,7 @@ E.g. We want to get the table of history
 
 `http://localhost:8080/Titan/history?user_id=1111`
 
-<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/histry_postman.png" height=60% width=60%>
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/histry_postman.png" height=80% width=80%>
 
 
 ## How does recommendation system work？
