@@ -6,18 +6,18 @@ This is a restaurant search and recommendation web service (backend) to improve 
 __________________
 
 
-## What is implemented in this project?
+### What is implemented in this project?
 - API(by Yelp API)
 - Show items near your location (namely SearchItems)
 - Set favored items (namely VisitHistory)
 - Recommend new items (namely RecommendItems)
 - HTTP methods (GET, POST, PUT, DELETE)
 
-## What is Yelp API?
+### What is Yelp API?
 It is an open API for public users to access information from Yelp such that we can fetch real restaurant information including name, description, location, category, etc. It plays a role as the following:
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/api.png" height="60%" width="60%" >
 
-## How does database work?
+### How does database work?
 When the number of user is large, we need DSMS to manage data. We can fullfill functions like store all of informations related to each user, retrieve data based on conditions quackly, update, add or delete data timely, access data with authorization. We involve four tables in our case: 
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/tablessql.png" height=80% width=80%>
 + users - store user information.
@@ -27,7 +27,7 @@ When the number of user is large, we need DSMS to manage data. We can fullfill f
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png" height = 60%
 width=60%>
 
-Say, we want to get the table of history 
+E.g. we want to get the table of history 
 
 `http://localhost:8080/Titan/history?user_id=1111`
 
@@ -66,11 +66,6 @@ ___________________
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=27.99&lon=-81.76`
 
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recommendation_FL.png" height=80% width=80%>
-
-
-
-
-
 
 
 
