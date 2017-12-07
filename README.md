@@ -6,18 +6,18 @@ This is a restaurant search and recommendation web service (backend) to improve 
 __________________
 
 
-### What is implemented in this project?
+## What is implemented in this project?
 - API(by Yelp API)
 - Show items near your location (namely SearchItems)
 - Set favored items (namely VisitHistory)
 - Recommend new items (namely RecommendItems)
 - HTTP methods (GET, POST, PUT, DELETE)
 
-### What is Yelp API?
+## What is Yelp API?
 It is an open API for public users to access information from Yelp such that we can fetch real restaurant information including name, description, location, category, etc. It plays a role as the following:
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/api.png" height="80%" width="80%" >
 
-### How does database work?
+## How does database work?
 When the number of user is large, we need DSMS to manage data. We can fullfill functions like store all of informations related to each user, retrieve data based on conditions quackly, update, add or delete data timely, access data with authorization. We involve four tables in our case: 
 ![table](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/tablessql.png)
 + users - store user information.
@@ -30,10 +30,11 @@ width=50%>
 e.g. We want to get the table of history `http://localhost:8080/Titan/history?user_id=1111`
 
 
-### How does recommendation system work？
+## How does recommendation system work？
 - User-based method(similarity of users) 
 - Item-base method(similarity of items)
 - Content-based recommendation(similarity of characterastics)
+
 When the recommendation system does not contain enough users/data, we use contend-based method firstly, combined with user-based/ item-based recommendation method.
 
 
