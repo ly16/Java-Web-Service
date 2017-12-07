@@ -35,9 +35,10 @@ e.g. We want to get the table of history `http://localhost:8080/Titan/history?us
 - Item-base method(similarity of items)
 - Content-based recommendation(similarity of characterastics)
 
-When the recommendation system does not contain enough users/data, we use contend-based method firstly, combined with user-based/ item-based recommendation method.
+When the recommendation system does not contain enough users/data, we use contend-based method firstly, combined with user/ item-based recommendation method. In this case, We recommend restaurants with similar categories as those in history table and rank items based on distance.
 
 
+##  Results & Screen Shots
 
 
 
