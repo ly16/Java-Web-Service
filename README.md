@@ -27,7 +27,7 @@ When the number of user is large, we need DSMS to manage data. We can fullfill f
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png" height = 60%
 width=60%>
 
-e.g. We want to get the table of history 
+E.g. We want to get the table of history 
 
 `http://localhost:8080/Titan/history?user_id=1111`
 
