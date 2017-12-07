@@ -41,7 +41,7 @@ e.g. We want to get the table of history
 
 When the recommendation system does not contain enough users/data, we use contend-based method firstly, combined with user/ item-based recommendation method. In this case, We recommend restaurants with similar categories as those in history table and rank items based on distance.
 
-
+____________
 ###  Results & Screen Shots
 
 - Items in history table
@@ -55,13 +55,13 @@ When the recommendation system does not contain enough users/data, we use conten
 
 ![rca](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_CA.png)
 
-
+____________________
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=40.73&lon=-73.94`
 
 ![rny](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_nY.png)
 
-
+___________________
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=27.99&lon=-81.76`
 
