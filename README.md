@@ -27,11 +27,16 @@ When the number of user is large, we need DSMS to manage data. We can fullfill f
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png" height = 50%
 width=50%>
 
-e.g. We want to get the table of history
+e.g. We want to get the table of history `http://localhost:8080/Titan/history?user_id=1111`
 
-`
-http://localhost:8080/Titan/history?user_id=1111
-`
+
+### How does recommendation system work？
+- User-based method(similarity of users) 
+- Item-base method(similarity of items)
+- Content-based recommendation(similarity of characterastics)
+When the recommendation system does not contain enough users/data, we use contend-based method firstly, combined with user-based/ item-based recommendation method.
+
+
 
 
 
