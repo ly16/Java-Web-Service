@@ -27,7 +27,7 @@ When the number of user is large, we need DSMS to manage data. We can fullfill f
 <img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png" height = 60%
 width=60%>
 
-E.g. We want to get the table of history 
+Say, we want to get the table of history 
 
 `http://localhost:8080/Titan/history?user_id=1111`
 
@@ -51,21 +51,20 @@ ____________
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=37.38&lon=-122.08`
 
-![sev](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/server.png)
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/server.png" height=80% width=80%>
 
-![rca](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_CA.png)
-
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_CA.png" height=80% width=80%>
 ____________________
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=40.73&lon=-73.94`
 
-![rny](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_nY.png)
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_nY.png" height=80% width=80%>
 
 ___________________
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=27.99&lon=-81.76`
 
-![rfl](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recommendation_FL.png)
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recommendation_FL.png" height=80% width=80%>
 
 
 
