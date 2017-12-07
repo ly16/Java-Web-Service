@@ -28,6 +28,7 @@ When the number of user is large, we need DSMS to manage data. We can fullfill f
 width=60%>
 
 e.g. We want to get the table of history `http://localhost:8080/Titan/history?user_id=1111`
+
 ![histroy](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/histry_postman.png)
 
 
@@ -48,10 +49,12 @@ When the recommendation system does not contain enough users/data, we use conten
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=37.38&lon=-122.08`
 
 ![rca](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_CA.png)
+_____
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=40.73&lon=-73.94`
 
 ![rny](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/recom_nY.png)
+______
 
 `http://localhost:8080/Titan/recommendation?user_id=1111&lat=27.99&lon=-81.76`
 
