@@ -15,7 +15,7 @@ __________________
 
 ### What is Yelp API?
 It is an open API for public users to access information from Yelp such that we can fetch real restaurant information including name, description, location, category, etc. It plays a role as the following:
-<img src="https://github.com/ly16/Local-Restaurant-Searcher/blob/master/results/favorite.png" height="80%" width="80%" >
+<img src="https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/api.png" height="80%" width="80%" >
 
 ![api](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/api.png)
 
