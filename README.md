@@ -26,6 +26,10 @@ When the number of user is large, we need DSMS to manage data. We can fullfill f
 + category - store item-category relationship (many-to-many).
 ![db](https://github.com/ly16/Personalized-Restaurants-Recommendation-Service/blob/master/results/db.png)
 
+We can get one of the table interested in
+`http://localhost:8080/Titan/history?user_id=1111`
+
+
 
 
 
