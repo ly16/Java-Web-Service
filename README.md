@@ -6,7 +6,7 @@ This is a restaurant search and recommendation web service (backend) to improve 
 __________________
 
 
-### What is implemented in this project?
+### What are implemented in this project?
 - API(by Yelp API)
 - Show items near your location (namely SearchItems)
 - Set favored items (namely VisitHistory)
