@@ -8,9 +8,9 @@ __________________
 
 ### What are implemented in this project?
 - API(by Yelp API)
-- Show items near your location (namely SearchItems)
-- Set favored items (namely VisitHistory)
-- Recommend new items (namely RecommendItems)
+- Show items near your location (named SearchItems)
+- Set favored items (named VisitHistory)
+- Recommend new items (named RecommendItems)
 - HTTP methods (GET, POST, PUT, DELETE)
 
 ### What is Yelp API?
